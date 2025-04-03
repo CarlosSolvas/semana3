@@ -1,0 +1,125 @@
+/*
+Theme Name: Semana3
+Theme URI: http://tudominio.com
+Author: Carlos
+Author URI: http://tudominio.com
+Description: Un tema de WordPress creado desde cero.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: semana3
+*/
+
+/* Estilo general del sitio */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+/* Estilo para el menú */
+.main-nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.main-nav .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav .menu li {
+    margin-right: 20px;
+}
+
+.main-nav .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-nav .menu li a:hover {
+    color: #f39c12;
+}
+
+/* Estilo para las páginas */
+.page {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.page h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el sidebar */
+#sidebar-1 {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo para los widgets */
+.widget {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.widget-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#sidebar {
+    display: block !important;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    float: right; /* Hace que aparezca a la derecha */
+}
